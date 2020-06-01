@@ -1,0 +1,64 @@
+@import "reset.css";
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "Block";
+  font-weight: 400;
+  src: url(font/Block Light.ttf) format('truetype');
+
+  font-family: "Rodchenko";
+  font-weight: bold;
+  src: url(font/Rodchenko_Condensed.ttf) format('truetype');
+}
+
+body {
+  background-image: url(img/bg-home.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+h1 {
+  color: white;
+  font-family: "Block", monospace;
+  font-size: 72px;
+  margin-left: 8.472vw;
+  margin-top: 16vw;
+}
+
+
+
+nav{
+  position: relative;
+  height: 12vh;
+  margin-top: 40px;
+}
+
+ul {
+  position: absolute;
+  right: 6%;
+  top: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+li {
+  padding-left: 100px;
+}
+
+.logo {
+  position: absolute;
+  left: 4%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Rodchenko";
+  font-size: 20px;
+}
