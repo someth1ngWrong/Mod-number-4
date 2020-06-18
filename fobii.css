@@ -1,0 +1,155 @@
+
+
+@import "reset.css";
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "Block";
+  font-weight: 400;
+  src: url(font/Block Light.ttf) format('truetype');
+
+  font-family: "Rodchenko";
+  font-weight: bold;
+  src: url(font/Rodchenko_Condensed.ttf) format('truetype');
+}
+
+body {
+  background-image: url(img/bg-shop.png);
+  background-size: cover;
+  /* animation: noise 250ms linear reverse infinite; */
+  /* overflow: hidden; */
+}
+ @keyframes noise {
+   0% {
+     background-image: url(img/bg-shop.png);
+     background-size: cover;
+   }
+   25% {
+     background-image: url(img/bg-shop-2.png);
+     background-size: cover;
+   }
+   50% {
+     background-image: url(img/bg-shop-3.png);
+     background-size: cover;
+   }
+   75% {
+     background-image: url(img/bg-shop-4.png);
+     background-size: cover;
+   }
+   100% {
+     background-image: url(img/bg-shop.png);
+     background-size: cover;
+   }
+ }
+
+h1 {
+  color: white;
+  font-family: "Block", monospace;
+  font-size: 72px;
+  margin-left: 8.472vw;
+  margin-top: 4vw;
+}
+
+
+
+.up{
+  position: relative;
+  height: 12vh;
+  margin-top: 40px;
+}
+
+ul {
+  position: absolute;
+  right: 6%;
+  top: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+li {
+  padding-left: 100px;
+}
+
+.logo {
+  position: absolute;
+  left: 4%;
+  height: 10vw
+}
+
+.logo:hover {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Rodchenko";
+  font-size: 20px;
+}
+
+.active {
+  border: solid;
+  padding: 11px 30px 6px;
+}
+
+li a:hover{
+  border-bottom: solid;
+  padding-bottom: 6px;
+}
+
+.box {
+  display: flex;
+}
+
+
+.box p {
+  color: white;
+  font-family: "Rodchenko";
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 23vw;
+  width: 27.778vw;
+}
+
+.blister {
+  margin-top: -59px;
+  margin-left: 161px;
+  width: 456px;
+  height: 456px;
+}
+
+.buy {
+  color: white;
+  font-family: "Rodchenko";
+  font-size: 30px;
+  margin-left: 8vw;
+  margin-top: -3vw;
+  border: solid;
+  padding: 10px 60px 8px;
+}
+
+.buy:hover {
+  opacity: 0.5;
+}
+
+
+.down {
+  /* margin-top: 4vw; */
+  /* margin-left: 2vw; */
+  text-align: center;
+  /* display: flex; */
+  margin-top: 3.5vw;
+}
+
+.down a:nth-child(2) {
+  padding: 5px;
+  margin: 0px 36vw 0px 36vw;
+  border-bottom: solid;
+  /* text-decoration-line: underline; */
+}
