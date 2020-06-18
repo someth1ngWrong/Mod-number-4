@@ -18,7 +18,7 @@
 body {
   background-image: url(img/bg-shop.png);
   background-size: cover;
-  /* animation: noise 250ms linear reverse infinite; */
+  animation: noise 250ms linear reverse infinite;
   /* overflow: hidden; */
 }
  @keyframes noise {
@@ -143,5 +143,121 @@ p {
 
 .secondRow div {
   margin-left: 100px;
+
+}
+
+.menu,
+.links,
+.linksItem {
+  visibility:hidden;
+}
+
+@media (max-width: 425px) {
+  a {
+    color: black;
+  }
+
+  /* .header{
+    display: none;
+  } */
+
+  .nav {
+    height: 10vh;
+  }
+  .menu,
+  .close {
+    position: absolute;
+    width: 10vw;
+    /* cursor: pointer; */
+    left: 80%;
+    top: 7%;
+    /* transform: translate(-5%,-50%); */
+    z-index: 2;
+  }
+    .menu {
+    visibility: visible;
+  }
+
+  .close {
+    visibility:hidden;
+  }
+
+    .links {
+    list-style: none;
+    position: absolute;
+    background: white;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    border: 3px solid;
+    top: 9vw;
+    left: 5vw;
+    align-items: start;
+    margin-top: -43px;
+    margin-left: -25px;
+
+  }
+
+
+  .linksItem {
+    margin-left: -3vw;
+    font-size: 15vw;
+    font-family: "Block", monospace;
+    padding: 20px;
+  }
+
+  .navDesk {
+    visibility:hidden;
+  }
+
+
+
+
+
+  h1 {
+    font-size: 17vw;
+    margin-top: 62vw;
+  }
+
+  .shopBox img {
+    height: 20vw
+  }
+
+  .firstRow {
+  }
+
+  .firstRow div {
+    margin-left: 100px;
+  }
+
+  .secondRow {
+  }
+
+  .secondRow div {
+    margin-left: 100px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
