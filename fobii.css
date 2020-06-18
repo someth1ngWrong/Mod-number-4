@@ -29,7 +29,7 @@ body {
   background-size: cover;
   width: 100%;
   height: 100%;
-  /* animation: noise 250ms linear reverse infinite; */
+  animation: noise 250ms linear reverse infinite;
   overflow: hidden;
 }
  @keyframes noise {
@@ -162,3 +162,51 @@ li a:hover{
   border-bottom: solid;
   /* text-decoration-line: underline; */
 }
+
+.swal-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.swal-modal {
+  height: 34vw;
+  width: 30vw;
+  border-radius: 0;
+  background: white;
+}
+
+.swal-title {
+  font-family: "Rodchenko";
+  font-size: 1.5vw;
+  text-align: left;
+  color: black;
+}
+.swal-text {
+  margin-top: 25vw;
+  font-family: "Rodchenko";
+  font-size: 1.5vw;
+  text-align: left;
+  color: black;
+}
+
+.swal-button {
+  font-family: "Rodchenko";
+  font-size: 1.5vw;
+  color: white;
+  border: solid;
+  border-radius: 0;
+  background: none;
+  padding: 16px 60px 9px 60px;
+}
+
+.swal-button:not([disabled]):hover {
+  background-color: black;
+  opacity: 0.5;
+}
+.swal-footer {
+    text-align: right;
+    padding-top: 13px;
+    margin-top: 13px;
+    padding: 2vw 0px;
+    border-radius: inherit;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;

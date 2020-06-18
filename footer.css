@@ -16,7 +16,7 @@
 }
 
 body {
-  background-image: url(img/bg-home.png);
+  background-image: url(img/bg-footer.png);
   background-size: cover;
   overflow: hidden;
 }
@@ -54,6 +54,7 @@ li {
 .logo {
   position: absolute;
   left: 4%;
+    height: 10vw;
 }
 
 a {
@@ -61,4 +62,24 @@ a {
   color: white;
   font-family: "Rodchenko";
   font-size: 20px;
+}
+
+.active {
+  border: solid;
+  padding: 11px 30px 6px;
+}
+
+li a:hover{
+  border-bottom: solid;
+  padding-bottom: 6px;
+}
+
+p {
+  font-family: "Rodchenko";
+  color: white;
+  font-size: 2vw;
+  text-align: left;
+  width: 47vw;
+  margin-left: 40vw;
+  margin-top: 2vw;
 }
