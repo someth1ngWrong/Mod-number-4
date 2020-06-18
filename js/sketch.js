@@ -1,10 +1,11 @@
+
+
 let box = {
   x: 0,
   y: 0
 }
 
 let extraCanvas;
-
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -13,6 +14,8 @@ function setup() {
   box.y = height / 2;
 
 }
+
+
 
 function draw() {
 
